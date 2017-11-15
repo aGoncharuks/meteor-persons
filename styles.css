@@ -1,0 +1,30 @@
+body {
+  background-color: #1abc9c;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.page-header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.person-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-wrap {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.delete-person {
+  display: block;
+  margin: 20px auto;
+}

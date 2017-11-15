@@ -1,0 +1,12 @@
+<template name="NewPerson">
+  <div class="page-header-wrap">
+    <h4 class="color-white page-header">Add New Person</h4>
+    <a href="/" class="waves-effect waves-light btn red">Return to persons list</a>
+  </div>
+  <div class="card horizontal">
+    <div class="card-content form-wrap">
+      {{> quickForm collection="Persons" id="insertPersonForm" type="insert" class="new-person-form"}}
+    </div>
+  </div>
+
+</template>

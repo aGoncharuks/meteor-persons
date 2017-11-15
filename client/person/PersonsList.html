@@ -1,0 +1,15 @@
+<template name="PersonsList">
+  <div class="page-header-wrap">
+    <h4 class="color-white page-header">Persons List</h4>
+    <a href="/new-person" class="waves-effect waves-light btn red">Add new person</a>
+  </div>
+  <ul class="persons-list-wrap">
+    {{#if Template.subscriptionsReady}}
+      {{#each persons}}
+        {{> Person}}
+      {{/each}}
+    {{else}}
+      Loading...
+    {{/if}}
+  </ul>
+</template>

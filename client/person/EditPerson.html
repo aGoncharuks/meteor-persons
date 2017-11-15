@@ -1,0 +1,16 @@
+<template name="EditPerson">
+  <div class="page-header-wrap">
+    <h4 class="color-white page-header">Edit Person</h4>
+    <a href="/" class="waves-effect waves-light btn red">Return to persons list</a>
+  </div>
+  <div class="card horizontal">
+    <div class="card-content form-wrap">
+      {{#if Template.subscriptionsReady}}
+        {{>quickForm collection="Persons" id="updatePersonForm" type="update" doc=person}}
+      {{else}}
+        Loading...
+      {{/if}}
+    </div>
+  </div>
+  <button type="button" name="delete-person" class="waves-effect waves-light btn red delete-person">Delete person</button>
+</template>

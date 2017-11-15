@@ -1,0 +1,27 @@
+[
+  {
+  "name": "Igors",
+  "age": 34,
+  "isActive": true
+  },
+  {
+    "name": "Edgars",
+    "age": 32,
+    "isActive": true
+  },
+  {
+    "name": "Maksims",
+    "age": 25,
+    "isActive": false
+  },
+  {
+    "name": "Kalvis",
+    "age": 30,
+    "isActive": false
+  },
+  {
+    "name": "Eduards",
+    "age": 39,
+    "isActive": true
+  }
+]

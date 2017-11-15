@@ -1,0 +1,20 @@
+<template name="Person">
+  <li class="card horizontal">
+    <div class="card-stacked">
+      <div class="card-content person-item">
+        <div class="person-data">
+          <h5 class="person-name">{{name}}</h5>
+          <div class="person-age">Age: {{age}}</div>
+          <div class="person-active">Active:
+            {{#if isActive}}
+              Yes
+            {{else}}
+              No
+            {{/if}}
+          </div>
+        </div>
+        <a href="/edit-person/{{_id}}" class="waves-effect waves-light btn">Edit person</a>
+      </div>
+    </div>
+  </li>
+</template>
